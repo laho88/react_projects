@@ -1,6 +1,8 @@
 Hosting React builds on this repo. 
 
 
-Main branch contains the React/JSX project.
+#Main branch 
+ - contains **React/JSX** project.
 
-Master is the React/Props. 
+#Master
+ - contains **React/Props**. 
