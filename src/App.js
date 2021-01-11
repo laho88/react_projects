@@ -1,19 +1,20 @@
-import React from "react"
+import React from "react";
+import Person from "./components/Person";
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello Dojo!</h1>
-      <h3>Things I will make happen in 2021:</h3>
-      <ul>
-        <li>Take Yop on a trip</li>
-        <li>Visit my family</li>
-        <li>Getting my first developer job</li>
-        <li>Finish launching my website</li>
-      </ul>
-    </div>
-  );
-}
+
+
+    return (
+        <div className="persons-list">
+            < Person firstName="Yop" lastName="of Pars" ps5Consoles="1" consoleColor = "Pink"/>
+            < Person firstName="Smees" lastName="of Suomi" ps5Consoles="-1" consoleColor = "Red"/>
+            < Person firstName = "Mr Winters" lastName = "" ps5Consoles = "1" consoleColor = "Blue"/>
+            < Person firstName="Pebo" lastName = "" ps5Consoles = "0" consoleColor = "Yellow"/>
+            < Person firstName="Husalu" lastName = "" ps5Consoles = "0" consoleColor = "Pink"/>
+        </div>
+        );
+    //};
+};
 
 export default App;
